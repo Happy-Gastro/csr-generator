@@ -1,0 +1,30 @@
+{
+  "name": "@happy-gastro/csr-generator",
+  "version": "1.0.6",
+  "description": "Generate CSR with HTTP request on every platform withouut OpenSSL or other dependecies",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csr",
+    "generator",
+    "csr",
+    "generator",
+    "generate",
+    "csr",
+    "certificate",
+    "request",
+    "generator"
+  ],
+  "author": {
+    "name": "Ferenc Farkas",
+    "email": "ferenc.farkas@happygastro.hu",
+    "url": "https://www.happygastro.hu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Happy-Gastro/hungarian-round-numbers.git"
+  },
+  "license": "ISC"
+}
