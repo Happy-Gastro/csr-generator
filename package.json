@@ -1,6 +1,6 @@
 {
   "name": "@happy-gastro/csr-generator",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Generate CSR with HTTP request on every platform withouut OpenSSL or other dependecies",
   "main": "./src/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Happy-Gastro/hungarian-round-numbers.git"
+    "url": "https://github.com/Happy-Gastro/csr-generator.git"
   },
   "license": "ISC"
 }
