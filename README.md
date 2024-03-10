@@ -4,14 +4,14 @@ This package provides a simple and straightforward way to generate Certificate S
 ## Installation
 
 ```bash
-npm install csr-key-generator
+npm install @happy-gastro/csr-key-generator
 ```
 
 ## Usage
 To use this package, import the generateCSRAndKey function and call it with optional parameters:
 
 ```javascript
-import { generateCSRAndKey } from 'csr-key-generator';
+import { generateCSRAndKey } from '@happy-gastro/csr-key-generator';
 
 // Example usage:
 generateCSRAndKey('HU', 'happygastro.org', '', 'Software development', 'Happy Gastro Kft.', 'Pest megye', 'Hungary', '')
@@ -46,7 +46,7 @@ SC: SC field of CSR.
 
 ## Example
 ```javascript
-import { generateCSRAndKey } from 'csr-key-generator';
+import { generateCSRAndKey } from '@happy-gastro/csr-key-generator';
 
 // Example usage:
 generateCSRAndKey('HU', 'happygastro.org', '', 'Software development', 'Happy Gastro Kft.', 'Pest megye', 'Hungary', '')
