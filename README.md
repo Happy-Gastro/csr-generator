@@ -14,7 +14,7 @@ To use this package, import the generateCSRAndKey function and call it with opti
 import { generateCSRAndKey } from '@happy-gastro/csr-key-generator';
 
 // Example usage:
-generateCSRAndKey('HU', 'happygastro.org', '', 'Software development', 'Happy Gastro Kft.', 'Pest megye', 'Hungary', '')
+generateCSRAndKey('HU', 'happygastro.hu', '', 'Software development', 'Happy Gastro Kft.', 'Pest megye', 'Hungary', '')
     .then((result) => {
         console.log('Generated CSR:', result.certificateRequest);
         console.log('Generated Key:', result.privateKey);
@@ -49,7 +49,7 @@ SC: SC field of CSR.
 import { generateCSRAndKey } from '@happy-gastro/csr-key-generator';
 
 // Example usage:
-generateCSRAndKey('HU', 'happygastro.org', '', 'Software development', 'Happy Gastro Kft.', 'Pest megye', 'Hungary', '')
+generateCSRAndKey('HU', 'happygastro.hu', '', 'Software development', 'Happy Gastro Kft.', 'Pest megye', 'Hungary', '')
     .then((result) => {
         console.log('Generated CSR:', result.certificateRequest);
         console.log('Generated Key:', result.privateKey);
@@ -68,7 +68,7 @@ This project is developed and maintained by Farkas Ferenc.
 
 - **Name**: Farkas Ferenc
 - **Email**: [ferenc.farkas@happygastro.hu](mailto:ferenc.farkas@happygastro.hu)
-- **Website**: [www.happygastro.org](http://www.happygastro.org)
+- **Website**: [www.happygastro.hu](http://www.happygastro.org)
 
 ## Company
 
